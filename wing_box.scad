@@ -2,7 +2,6 @@ include <config.scad>;
 
 module wing_box() {
      n = wings_nb;
-     diameter = 10;
 
      for (i = [0:n]) {
           rotate([0, 0, i * 360 / n + 21]) {
