@@ -5,6 +5,7 @@ skin_int_dia = 110;
 
 wings_thickness = 3;
 wings_nb = 4;
+wings_rot_offset = 21;
 wings_m = 200;
 wings_n = 130;
 wings_p = 127;

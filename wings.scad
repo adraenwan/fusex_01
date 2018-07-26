@@ -6,7 +6,7 @@ module wings() {
      n = wings_nb;
 
      for (i = [0:n]) {
-          rotate([0, 0, i * 360 / n + 21]) {
+          rotate([0, 0, i * 360 / n + wings_rot_offset]) {
                translate([ring_ext_dia/2 - 2, 0, 0]) {
                     translate([0, -wings_thickness/2 - 0.001, -0.001]) {
                          wing();
