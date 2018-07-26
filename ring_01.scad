@@ -2,8 +2,7 @@ include <config.scad>;
 
 use <bars.scad>;
 use <pro54.scad>;
-use <wing_brackets.scad>;
-use <wings.scad>;
+use <wing_box.scad>;
 
 module ring_01() {
      height = 16;
@@ -15,8 +14,7 @@ module ring_01() {
           union() {
                bars(margin=0.5);
 
-               wing_brackets();
-               wings();
+               wing_box();
 
                scale([1.05, 1.05, 1])
                     pro54();

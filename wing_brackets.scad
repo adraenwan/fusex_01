@@ -1,7 +1,7 @@
 include <config.scad>;
 
 module wing_brackets() {
-     n = 4;
+     n = wings_nb;
      diameter = 10;
 
      module bracket() {
