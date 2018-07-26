@@ -1,8 +1,10 @@
-$fn = 160;
+$fn = 140;
 
 body_height = 1800;
-cone_height = 250;
 skin_int_dia = 110;
+
+nose_height = 250;
+nose_thickness = 10;
 
 wings_thickness = 3;
 wings_nb = 4;
