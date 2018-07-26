@@ -1,6 +1,7 @@
 $fn = 160;
 
 body_height = 1800;
+cone_height = 250;
 skin_int_dia = 110;
 
 wings_thickness = 3;

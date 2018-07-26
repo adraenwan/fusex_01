@@ -9,6 +9,7 @@ use <ring_rack.scad>;
 use <wing_brackets.scad>;
 use <wings.scad>;
 use <wing_box.scad>;
+use <nose.scad>;
 
 %pro54();
 bars();
@@ -19,3 +20,4 @@ ring_rack();
 wing_brackets();
 wings();
 //wing_box();
+nose();
